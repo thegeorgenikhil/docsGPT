@@ -1,0 +1,15 @@
+version: '3'
+services:
+  react:
+    build: ./frontend
+    ports:
+      - 80:80
+  go:
+    build: ./backend
+    ports:
+      - 9000:9000
+    env_file:
+      - .env
+  mongodb:
+    image: mongo
+
