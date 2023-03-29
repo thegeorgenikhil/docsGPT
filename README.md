@@ -40,6 +40,10 @@ docker-compose up
 
 Your app should be running on `localhost:80` with backend on `localhost:9000`.
 
+## Screenshots
+
+![image](https://user-images.githubusercontent.com/56214901/228553999-4bb07e12-bf72-48c9-9a5f-1e01b742d7d9.png)
+
 ## TODO
 
 - [ ] Replace all the alerts in the UI with toasts
