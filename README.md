@@ -29,7 +29,7 @@ PORT=9000
 OPENAI_API_KEY= # This is the API key you get from OpenAI
 PINECONE_API_KEY= # This is the API key you get from Pinecone
 PINECONE_INDEX_URL= # This is the URL of the index you want to use.
-MONGO_URI=mongodb://mongodb:27017
+MONGO_URI=mongodb://mongodb/docsGPT
 ```
 
 3. Run the app
